@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		681D820D2A116CCF009B793F /* uber_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681D820C2A116CCF009B793F /* uber_cloneApp.swift */; };
-		681D820F2A116CCF009B793F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681D820E2A116CCF009B793F /* ContentView.swift */; };
 		681D82112A116CD0009B793F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681D82102A116CD0009B793F /* Assets.xcassets */; };
 		681D82142A116CD0009B793F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681D82132A116CD0009B793F /* Preview Assets.xcassets */; };
+		681D82242A116E0D009B793F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681D82232A116E0D009B793F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		681D82092A116CCF009B793F /* uber-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uber-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		681D820C2A116CCF009B793F /* uber_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uber_cloneApp.swift; sourceTree = "<group>"; };
-		681D820E2A116CCF009B793F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		681D82102A116CD0009B793F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		681D82132A116CD0009B793F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		681D82232A116E0D009B793F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,11 @@
 		681D820B2A116CCF009B793F /* uber-clone */ = {
 			isa = PBXGroup;
 			children = (
-				681D820C2A116CCF009B793F /* uber_cloneApp.swift */,
-				681D820E2A116CCF009B793F /* ContentView.swift */,
+				681D821A2A116D54009B793F /* App */,
+				681D821D2A116D61009B793F /* Core */,
+				681D821E2A116D93009B793F /* Extensions */,
+				681D821F2A116DAD009B793F /* Managers */,
+				681D82202A116DB0009B793F /* Models */,
 				681D82102A116CD0009B793F /* Assets.xcassets */,
 				681D82122A116CD0009B793F /* Preview Content */,
 			);
@@ -65,6 +68,59 @@
 				681D82132A116CD0009B793F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		681D821A2A116D54009B793F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				681D820C2A116CCF009B793F /* uber_cloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		681D821D2A116D61009B793F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				681D82212A116DC0009B793F /* ViewModel */,
+				681D82222A116DFA009B793F /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		681D821E2A116D93009B793F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		681D821F2A116DAD009B793F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		681D82202A116DB0009B793F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		681D82212A116DC0009B793F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		681D82222A116DFA009B793F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				681D82232A116E0D009B793F /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681D820F2A116CCF009B793F /* ContentView.swift in Sources */,
 				681D820D2A116CCF009B793F /* uber_cloneApp.swift in Sources */,
+				681D82242A116E0D009B793F /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
