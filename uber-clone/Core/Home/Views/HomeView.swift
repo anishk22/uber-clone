@@ -14,9 +14,9 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             HStack {
-                Spacer()
-                
-                MapViewActionButton()
+//                Spacer()
+//
+//                MapViewActionButton()
                 
                 Spacer()
                 
