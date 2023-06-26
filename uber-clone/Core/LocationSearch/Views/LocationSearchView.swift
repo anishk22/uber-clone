@@ -48,7 +48,7 @@ struct LocationSearchView: View {
                 }
             }
             .padding(.horizontal)
-            .padding(.top, 64)
+            .padding(.top, 72)
             
             Divider()
                 .padding(.vertical)
@@ -62,6 +62,7 @@ struct LocationSearchView: View {
                 }
             }
         }
+        .background(.white)
     }
 }
 

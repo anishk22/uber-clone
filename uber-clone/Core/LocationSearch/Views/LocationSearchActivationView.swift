@@ -20,7 +20,7 @@ struct LocationSearchActivationView: View {
             
             Spacer()
         }
-        .frame(width: UIScreen.main.bounds.width - 96, height: 50)
+        .frame(width: UIScreen.main.bounds.width - 48, height: 50)
         .background(
             Rectangle()
                 .fill(Color.white)
