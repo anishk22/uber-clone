@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State private var showLocationSearchView = false;
+    @State private var showLocationSearchView = false
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -17,19 +17,19 @@ struct HomeView: View {
             
             if showLocationSearchView {
                 LocationSearchView()
+                
+                MapViewActionButton(showLocationSearchView: $showLocationSearchView)
+                    .padding(.leading)
+                    .padding(.top, 4)
             } else {
                 LocationSearchActivationView()
-                    .padding(.top, 72)
+                    .padding(.top, 78)
                     .onTapGesture {
                         withAnimation(.spring()) {
                             showLocationSearchView.toggle()
                         }
                     }
             }
-            
-            MapViewActionButton(showLocationSearchView: $showLocationSearchView)
-                .padding(.leading)
-                .padding(.top, 4)
         }
     }
 }
