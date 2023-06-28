@@ -23,12 +23,16 @@ struct HomeView: View {
                             mapState = .searchingForLocation
                         }
                     }
-            } else if mapState == .searchingForLocation || mapState == .locationSelected {
+            } else if mapState == .searchingForLocation {
                 LocationSearchView(mapState: $mapState)
                 MapViewActionButton(mapState: $mapState)
                     .padding(.leading)
                     .padding(.top, 4)
-                
+            }
+            else {
+                MapViewActionButton(mapState: $mapState)
+                    .padding(.leading)
+                    .padding(.top, 4)
             }
         }
     }
