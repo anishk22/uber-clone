@@ -23,7 +23,7 @@ struct LocationSearchView: View {
                     
                     Rectangle()
                         .fill(Color(.systemGray3))
-                        .frame(width: 1, height: 24 )
+                        .frame(width: 1, height: 24)
                     
                     Rectangle()
                         .fill(Color(.black))
