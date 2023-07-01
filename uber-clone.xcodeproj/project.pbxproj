@@ -140,8 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				681D82232A116E0D009B793F /* HomeView.swift */,
-				681D82252A116EE3009B793F /* UberMapViewRepresentable.swift */,
 				681D82322A118156009B793F /* MapViewActionButton.swift */,
+				681D82252A116EE3009B793F /* UberMapViewRepresentable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,8 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				681D82302A117FDB009B793F /* LocationSearchActivationView.swift */,
-				68797A2B2A13FB820021B2EB /* LocationSearchView.swift */,
 				68797A2D2A14094B0021B2EB /* LocationSearchResultCell.swift */,
+				68797A2B2A13FB820021B2EB /* LocationSearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
