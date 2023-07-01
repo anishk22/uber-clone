@@ -31,14 +31,14 @@ struct HomeView: View {
                     MapViewActionButton(mapState: $mapState)
                         .padding(.leading)
                         .padding(.top, 4)
-                case .locationSelected:
+                case .locationSelected, .mapConfigured:
                     MapViewActionButton(mapState: $mapState)
                         .padding(.leading)
                         .padding(.top, 4)
                 }
             }
             
-            if mapState == .locationSelected {
+            if mapState == .locationSelected || mapState == .mapConfigured {
                 RideRequestView()
                     .transition(.move(edge: .bottom))
             }
