@@ -16,7 +16,8 @@ struct HomeView: View {
                 UberMapViewRepresentable(mapState: $mapState)
                     .ignoresSafeArea()
                 
-                if mapState == .noInput {
+                switch mapState {
+                case .noInput:
                     LocationSearchActivationView()
                         .padding(.top, 78)
                         .onTapGesture {
@@ -24,13 +25,12 @@ struct HomeView: View {
                                 mapState = .searchingForLocation
                             }
                         }
-                } else if mapState == .searchingForLocation {
+                case .searchingForLocation:
                     LocationSearchView(mapState: $mapState)
                     MapViewActionButton(mapState: $mapState)
                         .padding(.leading)
                         .padding(.top, 4)
-                }
-                else {
+                case .locationSelected:
                     MapViewActionButton(mapState: $mapState)
                         .padding(.leading)
                         .padding(.top, 4)
