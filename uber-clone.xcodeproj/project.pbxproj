@@ -79,11 +79,11 @@
 		681D820B2A116CCF009B793F /* uber-clone */ = {
 			isa = PBXGroup;
 			children = (
+				681D82102A116CD0009B793F /* Assets.xcassets */,
 				681D821A2A116D54009B793F /* App */,
 				681D821D2A116D61009B793F /* Core */,
 				681D821F2A116DAD009B793F /* Managers */,
 				681D82202A116DB0009B793F /* Models */,
-				681D82102A116CD0009B793F /* Assets.xcassets */,
 				681D82122A116CD0009B793F /* Preview Content */,
 			);
 			path = "uber-clone";
