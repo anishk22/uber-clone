@@ -35,7 +35,7 @@ struct LocationSearchView: View {
                         .font(.headline)
                         .padding(.leading)
                         .frame(height: 36)
-                        .background(Color(.systemGroupedBackground))
+                        .background(Color(.systemGray2))
                         .cornerRadius(10)
                         .padding(.trailing)
                     
@@ -70,7 +70,7 @@ struct LocationSearchView: View {
                 }
             }
         }
-        .background(.white)
+        .background(Color.theme.backgroundColor)
     }
 }
 

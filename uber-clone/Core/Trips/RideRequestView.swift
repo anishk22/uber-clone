@@ -53,14 +53,14 @@ struct RideRequestView: View {
                         if let location = locationViewModel.selectedUberLocation {
                             Text(location.title)
                                 .font(.system(size: 16, weight: .semibold))
-                                .foregroundColor(.gray)
+                                .foregroundColor(Color.theme.primaryTextColor)
                         }
                         
                         Spacer()
                         
                         Text(locationViewModel.dropOffTime ?? "")
                             .font(.system(size: 14, weight: .semibold))
-                            .foregroundColor(.gray)
+                            .foregroundColor(Color.theme.primaryTextColor)
                     }
                 }
                 .padding(.leading, 8)
@@ -94,8 +94,8 @@ struct RideRequestView: View {
                             .padding()
                         }
                         .frame(width: 112, height: 140)
-                        .foregroundColor(type == selectedRideType ? .white : .black)
-                        .background(Color(type == selectedRideType ? .systemBlue : .systemGroupedBackground))
+                        .foregroundColor(type == selectedRideType ? .white : Color.theme.primaryTextColor)
+                        .background(type == selectedRideType ? .blue : Color.theme.secondaryBackgroundColor)
                         .scaleEffect(type == selectedRideType ? 1.1 : 1.0)
                         .cornerRadius(10)
                         .onTapGesture {
@@ -132,7 +132,7 @@ struct RideRequestView: View {
                     .padding()
             }
             .frame(height: 50)
-            .background(Color(.systemGroupedBackground))
+            .background(Color.theme.secondaryBackgroundColor)
             .cornerRadius(10)
             .padding(.horizontal)
             
@@ -149,7 +149,7 @@ struct RideRequestView: View {
             }
         }
         .padding(.bottom, 24)
-        .background(.white)
+        .background(Color.theme.backgroundColor)
         .cornerRadius(24)
     }
 }

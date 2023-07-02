@@ -20,7 +20,7 @@ struct HomeView: View {
                 switch mapState {
                 case .noInput:
                     LocationSearchActivationView()
-                        .padding(.top, 78)
+                        .padding(.top, 132)
                         .onTapGesture {
                             withAnimation(.spring()) {
                                 mapState = .searchingForLocation
