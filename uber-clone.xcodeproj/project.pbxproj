@@ -24,6 +24,7 @@
 		68CA1C5F2A50C95B0009F240 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA1C5E2A50C95B0009F240 /* Double.swift */; };
 		68CA1C612A50CC420009F240 /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA1C602A50CC420009F240 /* UberLocation.swift */; };
 		68CA1C632A50D1D70009F240 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA1C622A50D1D70009F240 /* Color.swift */; };
+		68CA1C652A50FA8B0009F240 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA1C642A50FA8B0009F240 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		68CA1C5E2A50C95B0009F240 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		68CA1C602A50CC420009F240 /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
 		68CA1C622A50D1D70009F240 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		68CA1C642A50FA8B0009F240 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		681D82222A116DFA009B793F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				68CA1C642A50FA8B0009F240 /* Header.swift */,
 				681D82232A116E0D009B793F /* HomeView.swift */,
 				681D82322A118156009B793F /* MapViewActionButton.swift */,
 				681D82252A116EE3009B793F /* UberMapViewRepresentable.swift */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CA1C652A50FA8B0009F240 /* Header.swift in Sources */,
 				68B42C332A4930D600C64FE2 /* LocationSearchViewModel.swift in Sources */,
 				68797A2C2A13FB820021B2EB /* LocationSearchView.swift in Sources */,
 				681D82282A11711E009B793F /* LocationManager.swift in Sources */,

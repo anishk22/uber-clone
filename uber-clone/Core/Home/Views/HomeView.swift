@@ -19,6 +19,9 @@ struct HomeView: View {
                 
                 switch mapState {
                 case .noInput:
+                    Header()
+                        .frame(width: UIScreen.main.bounds.width, height: 70)
+                        .background(Color.theme.backgroundColor)
                     LocationSearchActivationView()
                         .padding(.top, 132)
                         .onTapGesture {
@@ -28,11 +31,22 @@ struct HomeView: View {
                         }
                 case .searchingForLocation:
                     LocationSearchView(mapState: $mapState)
-                    MapViewActionButton(mapState: $mapState)
-                        .padding(.leading)
-                        .padding(.top, 4)
+                    HStack {
+                        MapViewActionButton(mapState: $mapState)
+                            .padding(.leading)
+                            .padding(.top, 4)
+                        
+                        Spacer()
+                        
+                        Header()
+                            .padding(.trailing, 72)
+                        
+                        Spacer()
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 case .locationSelected, .mapConfigured:
                     MapViewActionButton(mapState: $mapState)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.leading)
                         .padding(.top, 4)
                 }

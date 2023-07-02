@@ -25,7 +25,6 @@ struct MapViewActionButton: View {
                 .clipShape(Circle())
                 .shadow(color: .black, radius: 6)
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
     }
     
     func actionForState(_ state: MapViewState) {
