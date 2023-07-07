@@ -2,23 +2,23 @@
 This mobile application is a interpolation of Uber's user interface built with Swift, SwiftUI, and MapKit.
 
 ## Home
+The app opens in a map view that displays the user's current location, along with a text field to input the destination of interest. 
 
 <p float="left">
-  <img src="https://github.com/anishk22/uber-clone/assets/92560993/03a8a385-e079-4c94-b5f3-5acf7d2242f3" width=30% height=30%>
-  <img src="https://github.com/anishk22/uber-clone/assets/92560993/84a9670f-3a83-4470-9876-ada9aafdf4fb" width=30% height=30%>
+  <img src="https://github.com/anishk22/uber-clone/assets/92560993/c19ce671-7207-4e95-b0bf-11ab6bab17e1" width=30% height=30%>
+  <img src="https://github.com/anishk22/uber-clone/assets/92560993/0aa712ae-fa97-4bd8-b68b-c2560bed8155" width=30% height=30%>
 </p>
 
 ## Search For Destination
 
 <p float="left">
-  <img src="https://github.com/anishk22/uber-clone/assets/92560993/3fc4d1ca-f3ff-446b-8300-5e5e8b2cacfb" width=30% height=30%>
-  <img src="https://github.com/anishk22/uber-clone/assets/92560993/2f41c242-7fd9-43b1-b1cc-6f887e30a5aa" width=30% height=30%>
+  <img src="https://github.com/anishk22/uber-clone/assets/92560993/d3a5e5a1-f6b5-45eb-b320-54329d143eee" width=30% height=30%>
+  <img src="https://github.com/anishk22/uber-clone/assets/92560993/fa4444d4-4ea4-45fb-b1f5-3af50e931241" width=30% height=30%>
 </p>
 
 ## Ride Calculation
-The user can tap the learn more buttom to see specifc information including multiple different images, a brief description, and a precise  location. 
 
 <p float="left">
-  <img src="https://github.com/anishk22/uber-clone/assets/92560993/b611d353-d661-4978-9711-d231269620dd" width=30% height=30%>
-  <img src="https://github.com/anishk22/uber-clone/assets/92560993/486b4662-528d-49e6-8f2f-8c70fb8da676" width=30% height=30%>
+  <img src="https://github.com/anishk22/uber-clone/assets/92560993/61eb8a6e-ad00-49e0-b36c-fb948add26e4" width=30% height=30%>
+  <img src="https://github.com/anishk22/uber-clone/assets/92560993/3f518905-c135-47ad-a2f3-0ef79ea6a1b7" width=30% height=30%>
 </p>
